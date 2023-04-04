@@ -11,63 +11,63 @@ Commande pour lancer les tests BDD : python BDD.py
 Commande pour lancer les test TDD : python TDD.py
 
 
-Voici les tests effectué
+Voici les tests effectué<br>
 Addition :
-        expression : 2+3
-        result = 5        
-        expression : 0+0
-        result = 0
-        expression : -1 +1
-        result = 0
+        - expression : 2+3 <br>
+        - result = 5 <br>        
+        - expression : 0+0 <br>
+        - result = 0<br>
+        - expression : -1 +1<br>
+        - result = 0<br>
         
-Soustraction :
-        expression : 5-2
-        result = 3
-        expression : 0-0
-        result = 0
-        expression -1 -1 
-        result = -2
+- Soustraction :
+        - expression : 5-2<br>
+        - result = 3<br>
+        - expression : 0-0<br>
+        - result = 0<br>
+        - expression -1 -1 <br>
+        - result = -2<br>
 
-Multiplication :
-        expression : 2x3
-        result = 6
-        expression : 0x0
-        result = 0
-        expression : -1 x 1 
-        result = -1
-        expression : 2,5 x 4 
-        result = 10
-        expression : 2x4,5
-        result = 9
-        expression : 2,5 x 4,5
-        result = 11,25
-        expression : 2x(3+4)
-        result = 14
+- Multiplication :
+       - expression : 2x3<br>
+       - result = 6<br>
+       - expression : 0x0<br>
+       - result = 0<br>
+       - expression : -1 x 1 <br>
+       - result = -1<br>
+       - expression : 2,5 x 4 <br>
+       - result = 10<br>
+       - expression : 2x4,5<br>
+       - result = 9<br>
+       - expression : 2,5 x 4,5<br>
+       - result = 11,25<br>
+       - expression : 2x(3+4)<br>
+       - result = 14<br>
 
-Division :
-        expression : 6/3
-        result = 2
-        expression : 0/5
-        result = 0
-        expression : 1/0
-        result = Erreur
-        expression 10 / 4
-        result = 2,5
-        expression : 12,5 / 2,5
-        result = 5
-        expression :10/(2+2)
-        result = 2,5
+- Division :
+        - expression : 6/3<br>
+        - result = 2<br>
+        - expression : 0/5<br>
+        - result = 0<br>
+        - expression : 1/0<br>
+        - result = Erreur<br>
+        - expression 10 / 4<br>
+        - result = 2,5<br>
+        - expression : 12,5 / 2,5<br>
+        - result = 5<br>
+        - expression :10/(2+2)<br>
+        - result = 2,5<br>
 
-Et enfin des tests type TDD
+Et enfin des tests type TDD<br>
 
-Calculer expression complexe :
-        expression : (1+2)x(3-1)/2
-        result = 3
+- Calculer expression complexe :<br>
+        - expression : (1+2)x(3-1)/2<br>
+        - result = 3<br>
 
-Calculer division par zero :
-        expression : 1/0
-        result = erreur
+- Calculer division par zero :<br>
+        - expression : 1/0<br>
+        - result = erreur<br>
         
-Calculer expression invalide(self):
-        expression : 1++2
-        result = Erreur
+- Calculer expression invalide :<br>
+        - expression : 1++2<br>
+        - result = Erreur<br>
