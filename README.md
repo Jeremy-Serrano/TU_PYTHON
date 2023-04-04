@@ -3,14 +3,18 @@ Prérequis
 Python 3.8
 
 Commande pour lancer le projet : python main.py
+
+
 Commande pour lancer les tests BDD : python BDD.py
+
+
 Commande pour lancer les test TDD : python TDD.py
 
 
 Voici les tests effectué
 Addition :
         expression : 2+3
-        result = 5
+        result = 5        
         expression : 0+0
         result = 0
         expression : -1 +1
