@@ -12,7 +12,7 @@ Commande pour lancer les test TDD : python TDD.py
 
 
 Voici les tests effectué<br>
-Addition :
+Addition :<br>
         - expression : 2+3 <br>
         - result = 5 <br>        
         - expression : 0+0 <br>
