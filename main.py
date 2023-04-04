@@ -70,18 +70,20 @@ def calculer(expression):
         # Si l'expression ne contient qu'un seul nombre, le renvoyer
         return float(expression)
 
-# Boucle principale pour demander les entrées et effectuer les opérations
-while True:
-    print("Entrez une expression arithmétique (ou tapez 'quitter' pour sortir) :")
+if __name__ == '__main__':
+    # Boucle principale pour demander les entrées et effectuer les opérations
+    while True:
+        print("Entrez une expression arithmétique (ou tapez 'quitter' pour sortir) :")
 
-    expression = input()
+        expression = input()
 
-    # Quitter le programme si l'utilisateur le demande
-    if expression.lower() == 'quitter':
-        break
+        # Quitter le programme si l'utilisateur le demande
+        if expression.lower() == 'quitter':
+            break
 
-    try:
-        resultat = calculer(expression)
-        print(f"{expression} = {resultat}")
-    except ValueError as e:
-        print(str(e))
+        try:
+            resultat = calculer(expression)
+            print(f"{expression} = {resultat}")
+        except ValueError as e:
+            print(str(e))
+
